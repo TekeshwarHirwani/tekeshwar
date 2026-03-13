@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekeshwar Hirwani | CV Researcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="dark-mode">
+
+    <div class="container">
+        <nav class="sidebar">
+            <div class="profile-section">
+                <img src="profile.jpg" alt="Tekeshwar Hirwani" class="profile-img">
+                <h1>Tekeshwar Hirwani</h1>
+                <p class="subtitle">PhD Scholar @ IISc</p>
+            </div>
+
+            <ul class="nav-links">
+                <li class="active" data-target="home"><i class="fas fa-home"></i> Home</li>
+                <li data-target="research"><i class="fas fa-microscope"></i> Experience</li>
+                <li data-target="publications"><i class="fas fa-book"></i> Publications</li>
+                <li data-target="education"><i class="fas fa-graduation-cap"></i> Education</li>
+                <li data-target="personal"><i class="fas fa-user-astronaut"></i> Personal Stuff</li>
+            </ul>
+
+            <div class="sidebar-footer">
+                <div class="social-btns">
+                    <a href="mailto:hirwanitekeshwar@gmail.com" class="btn-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/tekeshwar-hirwani-b1aa55200" target="_blank" class="btn-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://scholar.google.com/citations?user=7eQZ2OgAAAAJ" target="_blank" class="btn-icon" title="Scholar"><i class="fas fa-graduation-cap"></i></a>
+                </div>
+                <p class="phone">+91 7000346395</p>
+            </div>
+        </nav>
+
+        <main class="content">
+            
+            <section id="home" class="page active">
+                <div class="hero">
+                    <h2 class="glitch">Hey! Welcome to my webpage</h2>
+                    <p class="quote">"Entropy made me do it."</p>
+                    <p class="bio">
+                        I am a PhD student at the <b>Indian Institute of Science (IISc)</b>, Bengaluru. 
+                        Currently, I’m deep-diving into <b>Quality Assessment of Image Edit Models</b>. 
+                        Before this, I spent quite a bit of time working on Biomedical Images, specifically 
+                        <b>Photoacoustic Image Reconstruction</b>—you can check out my paper on that in the publications tab!
+                    </p>
+                    <p class="collab-call">
+                        I’m always looking to connect with industry folks who want to collaborate on visual quality metrics. 
+                        I work with <b>Prof. Rajiv Soundararajan</b>; you can see what our lab is up to here: 
+                        <a href="https://ece.iisc.ac.in/~rajivs/#/" target="_blank" class="link-accent">Prof. Rajiv's Website</a>.
+                    </p>
+                    <div class="cta-group">
+                        <button class="btn-primary" onclick="switchPage('research')">See my research</button>
+                        <button class="btn-secondary" onclick="switchPage('personal')">The "human" side</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="research" class="page">
+                <h2>Experience</h2>
+                
+                <div class="exp-card highlight-box">
+                    <span class="date-tag">Aug 2024 – Present</span>
+                    <h3>PhD Research Scholar</h3>
+                    <p class="inst">IISc, Bengaluru | Electrical Communication Engineering</p>
+                    <p>Working on <b>Image Edit Model Evaluation</b>. My goal is to bridge the gap between AI generation and actual human visual perception.</p>
+                </div>
+
+                <div class="exp-card">
+                    <span class="date-tag">Jan 2024 – June 2024</span>
+                    <h3>Research Intern</h3>
+                    <p class="inst">IISc, Bengaluru | IAP Dept</p>
+                    <p>Built a <b>transformer-based dual SwinUNet</b> for Photoacoustic Imaging, hitting an 18% improvement in UIQI metrics.</p>
+                </div>
+
+                <div class="exp-card">
+                    <span class="date-tag">May 2023 – Dec 2023</span>
+                    <h3>Product Engineer – Intern</h3>
+                    <p class="inst">SHAIP | Ahmedabad, India</p>
+                    <p>Fine-tuned NLP models for healthcare analytics and structured clinical data extraction.</p>
+                </div>
+            </section>
+
+            <section id="publications" class="page">
+                <h2>Publications</h2>
+                <div class="card">
+                    <h3>Transformer-based dual SwinUNet with contrastive loss for enhanced photoacoustic imaging</h3>
+                    <p class="authors">Isha Munjal, <b>Tekeshwar Hirwani</b>, Jaya Prakash</p>
+                    <p class="conf">European Conference on Biomedical Optics, 2025</p>
+                    <p class="desc">A study on enhancing medical image reconstruction through dual-domain transformer fusion.</p>
+                    <a href="https://scholar.google.com/citations?user=7eQZ2OgAAAAJ" target="_blank" class="btn-small">View Publication</a>
+                </div>
+            </section>
+
+            <section id="education" class="page">
+                <h2>Education</h2>
+                <div class="edu-box highlight">
+                    <h3>Indian Institute of Science (IISc)</h3>
+                    <p>PhD in Electrical Communication Engineering | <b>Ongoing</b></p>
+                </div>
+                <div class="edu-box">
+                    <h3>NIT Raipur</h3>
+                    <p>B.Tech in Biomedical Engineering | 2020 – 2024</p>
+                    <p><b>CGPA: 8.99 / 10</b></p>
+                </div>
+            </section>
+
+            <section id="personal" class="page">
+                <h2>Personal Stuff</h2>
+                <p class="quote">"Lets not drift."</p>
+                
+                <div class="chat-intro">
+                    <p>I’m a huge tech nerd at heart. Beyond the research, I’m usually building PCs or hiking through trails—I love being active. I'm also open to any future collaborations, so feel free to reach out!</p>
+                </div>
+
+                <div class="personal-grid">
+                    <div class="p-card">
+                        <h4><i class="fas fa-book-open"></i> Currently Reading</h4>
+                        <p>I’ve recently finished <i>Before the Coffee Gets Cold</i> and <i>Tales from the Cafe</i>. Right now, I’m tackling <b>Gunahon k Devta</b>. Honestly? I’m stuck in the middle right now and struggling to move forward, but I’m definitely going to finish it since it’s my first Hindi novel! <b>If anyone wants to join me for reading sessions to keep me in the habit, please do!</b></p>
+                    </div>
+
+                    <div class="p-card">
+                        <h4><i class="fas fa-dumbbell"></i> Fitness & Health</h4>
+                        <p>I’m a big gym guy—I hit the weights daily and I'm very conscious about my health. If you’re ever planning a run or any physical activity, <b>ping me!</b> I’d be happy to join you.</p>
+                    </div>
+                    
+                    <div class="p-card">
+                        <h4><i class="fas fa-gamepad"></i> Gaming</h4>
+                        <p>When I'm not in the lab, I'm likely gaming. I'm a fan of story-heavy games, deep RPGs, and massive open-world titles where I can just explore.</p>
+                    </div>
+
+                    <div class="p-card">
+                        <h4><i class="fas fa-brain"></i> Philosophy</h4>
+                        <p>I’m always down for a deep philosophical discussion. I want to understand the world better—specifically human behavior, relationships, and the nature of our existence. Let's talk about it.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
